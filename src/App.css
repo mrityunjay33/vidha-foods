@@ -26,29 +26,10 @@
   display: block;
 }
 
-/* Link hover styles */
 .navbar-menu li a:hover {
   background-color: #555;
 }
 
-/* Active link styles */
-.navbar-menu li a.active {
-  background-color: #555;
-}
-
-/* Add margin to the right of the last link */
-.navbar-menu li:last-child {
-  margin-right: 0;
-}
-
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  .navbar-menu ul {
-    display: flex;
-    justify-content: center;
-  }
-  .navbar-menu li {
-    display: block;
-    margin-bottom: 10px;
-  }
+.banner, .products, .about{
+  padding-top: 60px;
 }
