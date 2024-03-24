@@ -40,6 +40,6 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%; /* Ensure the footer spans the entire width of the page */
-  z-index: 1000; /* Adjust z-index if necessary */
+  width: 100%;
+  z-index: 1;
 }
