@@ -5,14 +5,12 @@
   position: fixed;
   width: 100%;
 }
-
 .navbar-menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
-
 .navbar-menu li {
   display: inline-block;
 }
@@ -25,11 +23,23 @@
   transition: background-color 0.3s ease;
   display: block;
 }
-
 .navbar-menu li a:hover {
   background-color: #555;
 }
-
-.banner, .products, .about{
+/* Content Style */
+.home, .products, .about{
   padding-top: 60px;
+  padding-bottom: 220px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  height: 200px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Ensure the footer spans the entire width of the page */
+  z-index: 1000; /* Adjust z-index if necessary */
 }
