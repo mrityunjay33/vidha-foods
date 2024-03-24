@@ -1,7 +1,6 @@
 /* Navbar styles */
 .navbar-menu {
   background-color: #333;
-  padding: 10px 20px;
   position: fixed;
   width: 100%;
 }
@@ -26,9 +25,13 @@
 .navbar-menu li a:hover {
   background-color: #555;
 }
+.navbar-menu li a.active {
+  background-color: #555;
+}
+
 /* Content Style */
 .home, .products, .about{
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 220px;
 }
 
